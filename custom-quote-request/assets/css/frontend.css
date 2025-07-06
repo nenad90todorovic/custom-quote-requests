@@ -1,0 +1,311 @@
+.quote-btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.quote-btn-wrap.added-product button {
+  pointer-events: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.single-product .quote-btn-wrap {
+  justify-content: start;
+  margin-top: 20px;
+}
+
+.single-product .related.products .quote-btn-wrap {
+  justify-content: center;
+}
+
+.quote-cta {
+  text-align: right;
+}
+
+.quote-btn-wrap button,
+.quote-cta button,
+.quote-cta a {
+  color: #000;
+  background-color: transparent;
+  outline: none !important;
+  border: 1px solid #000;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  max-width: 150px;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.quote-cta a {
+  margin-right: 15px;
+}
+
+.quote-cta button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.quote-btn-wrap button:hover,
+.quote-cta button:hover,
+.quote-cta a:hover,
+.quote-cta button:focus,
+.quote-cta a:focus {
+  background-color: #000;
+  color: #fff;
+  outline: none;
+}
+
+.quote-link {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.single-product .quote-link {
+  margin-top: 30px;
+}
+
+.quote-link img {
+  max-width: 35px;
+}
+
+.quote-link a {
+  display: flex;
+  align-items: center;
+}
+
+.quote-link a.no-quote {
+  cursor: initial;
+  pointer-events: none;
+}
+
+.quote-link a,
+.quote-link a:focus {
+  color: #000;
+  outline: none;
+}
+
+.quote-link a span {
+  padding-left: 5px;
+}
+
+.page-template-quote-review {
+  background-color: #fff;
+}
+
+.quote-details {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+.quote-details.quote-form-sending > h2,
+.quote-details.quote-form-sending > form {
+  opacity: 0.2;
+  pointer-events: none;
+ -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  transition: all .5s;
+}
+
+.quote-details h1 {
+  color: #000;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.quote-details h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.quote-details h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.quote-details p {
+  color: #000;
+  font-size: 16px;
+}
+
+.quote-details .quote-details-item {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.quote-details .quote-details-item:first-of-type {
+  padding-top: 0;
+}
+
+.quote-details .quote-details-item:last-of-type {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.quote-details-item .quote-product-notes {
+  flex: 0 0 400px;
+  text-align: right;
+  align-self: stretch;
+}
+
+.quote-details-item .quote-product-notes textarea {
+  width: 100%;
+  resize: none;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  min-height: 120px;
+  background-color: transparent;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.quote-details-item .quote-product-close > * {
+  cursor: pointer;
+ -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  top: -12px;
+} 
+
+.quote-details .quote-details-item img {
+  max-width: 150px;
+}
+
+.quote-details .quote-product-meta {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.quote-details .quote-product-meta label {
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.quote-details .quote-product-meta input {
+  background: transparent;
+  border: 1px solid #000;
+  color: #000;
+  outline: none;
+  max-width: 100px;
+}
+
+.quote-details .quote-product-meta input:focus {
+  background: transparent;
+}
+
+.quote-details .quote-contact {
+  margin-top: 40px;
+}
+
+.quote-details .quote-contact {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.quote-details .quote-contact h2 {
+  flex: 0 1 100%;
+}
+
+.quote-details .quote-contact .form-field {
+  flex: 1;
+}
+
+.quote-details .quote-contact input {
+  width: 100%;
+  color: #000;
+  border: 1px solid #000;
+  outline: none;
+  padding: 15px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.quote-details .quote-contact input:focus {
+  background-color: transparent;
+}
+
+@media screen and ( max-width: 1000px ) {
+
+  .quote-details h1 {
+    font-size: 40px;
+  }
+
+  .quote-details h2 {
+    font-size: 26px;
+  }
+
+  .quote-details h3 {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  .quote-details-item .quote-product-notes {
+    flex: 0 1 100%;
+    margin-top: 20px;
+  }
+
+  .quote-details-item .quote-product-notes textarea {
+    min-height: 200px;
+  }
+
+  .quote-details .quote-details-item {
+    position: relative;
+  }
+
+  .quote-details .quote-details-item:first-of-type {
+    padding-top: 30px;
+  }
+
+  .quote-details-item .quote-product-close {
+    position: absolute;
+    right: 0;
+    top: 25px;
+  }
+
+  .quote-details-item .quote-product-close > * {
+    position: static;
+  }
+
+  .quote-details .quote-contact {
+    row-gap: 20px;
+  }
+
+  .quote-details .quote-contact .form-field {
+    flex: 0 1 100%;
+  }
+
+  .quote-contact h2 {
+    margin-bottom: 0;
+  }
+
+}

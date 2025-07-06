@@ -1,0 +1,9 @@
+{
+  "name": "knele/custom-quote-request",
+  "autoload": {
+    "psr-4": {
+      "CQR\\": "src/"
+    }
+  },
+  "require": {}
+}
